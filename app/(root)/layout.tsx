@@ -1,5 +1,5 @@
-import Navbars from "@/app/header/navbars"
-import Selection from "@/app/header/selection"
+import Selection from "@/components/header/selection"
+import Navbars from "@/components/header/navbar"
 
 export default function RootGroupLayout({
   children,
@@ -8,9 +8,9 @@ export default function RootGroupLayout({
 }) {
   return (
     <main>
-      <Navbars/>
+      <Navbars />
       <div className="flex justify-between">
-        <Selection/>
+        <Selection />
         {children}
       </div>
     </main>

@@ -15,7 +15,7 @@ const Footer = () => {
                 <h3 className="text-sm font-semibold text-gray-300 mb-2">Navigasi</h3>
                 <ul className="space-y-1 text-sm text-gray-400">
                     <li><Link href="/" className="hover:text-white">Home</Link></li>
-                    <li><Link href="/cerita" className="hover:text-white">My Kisah</Link></li>
+                    <li><Link href="/isicerita" className="hover:text-white">My Kisah</Link></li>
                 </ul>
             </div>
             <div>
